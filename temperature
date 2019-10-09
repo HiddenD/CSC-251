@@ -1,0 +1,60 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package inclass_14_1007_jonesreginald;
+//import javax.swingJOptionPane;
+public class InClass_14_1007_JonesReginald 
+{
+
+    //Fields
+    private double fahren;      //Fahrenheit Temperature
+    private double cels;        //Celsius Temperature
+    private double kelv;        //Kelvin Temperature
+    
+    /**
+     * Constructor
+     * @param ftemp The Fahrenheit Temperature
+     * @param ctemp The Celsius Temperature
+     * @param ktemp The Kelvin Temperature
+     * */
+    
+    public InClass_14_1007_JonesReginald(double ftemp, double ctemp, double ktemp)
+    {
+        fahren = ftemp;    
+        cels = ctemp;
+        kelv = ktemp;
+    }
+    
+    /**
+     * The setFahren method sets the Fahrenheit Temperature
+     * @param ftemp 
+     */
+    
+    
+    
+    public void setFahren(double ftemp)
+    {
+        fahren = ftemp;
+    }
+    
+    /**
+     * The getFahren method gets the Fahrenheit Temperature
+     */
+    
+    public void getFahren()
+    {
+        //TODO
+    }
+
+    public void convertCels()
+    {
+    
+    }
+    
+    public void convertKelv()
+    {
+    
+    }
+}
